@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data files (keep locally, don't commit - large files)
+data/*.csv
+data/*.xlsx
+
+# NOTE: Model files are NOT ignored - they're needed for Streamlit deployment
+# If models are too large, consider using Git LFS or cloud storage
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets (don't commit)
+.streamlit/secrets.toml
+
+# Large zip files
+*.zip
